@@ -1,11 +1,135 @@
-body {
-  color: var(--labels-primary-color);
-}
-
-.swiper-slide-content {
+/* .swiper-slide-content {
   width: 100%;
   height: 200px;
   background-color: #fff;
   margin-right: 10px;
   background-color: lightgreen;
+} */
+
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero__content {
+  text-align: center;
+  font-family: var(--secondary-font);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.hero__title {
+  font-size: 96px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.hero__title span {
+  color: var(--accent-color);
+}
+
+.hero__subtitle {
+  font-size: 48px;
+  font-weight: 400;
+  color: var(--accent-color);
+  padding-bottom: 100px;
+}
+
+.hero__text-mobile {
+  display: none;
+}
+
+.hero__btn {
+  font-family: var(--secondary-font);
+  background-color: var(--accent-secondary-color);
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  transition: color 0.1s ease;
+}
+
+.hero__btn:hover {
+  border: 1px solid var(--accent-color);
+  background: var(--accent-color);
+}
+
+.hero__btn:active {
+  border: 1px solid var(--accent-secondary-color);
+  background: transparent;
+}
+
+@media (max-width: 1200px) {
+  .hero__title {
+    font-size: 64px;
+  }
+  .hero__subtitle {
+    font-size: 40px;
+    padding-bottom: 70px;
+  }
+  .hero__btn {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero__title {
+    font-size: 64px;
+  }
+  .hero__subtitle {
+    font-size: 40px;
+    padding-bottom: 70px;
+  }
+  .hero__btn {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero__title {
+    font-size: 48px;
+  }
+  .hero__subtitle {
+    font-size: 32px;
+    padding-bottom: 60px;
+  }
+  .hero__btn {
+    font-size: 20px;
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero__text {
+    display: none;
+  }
+  .hero__text-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__subtitle {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero__title {
+    font-size: 48px;
+  }
+  .hero__subtitle {
+    font-size: 32px;
+  }
+  .hero__btn {
+    font-size: 20px;
+  }
 }

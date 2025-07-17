@@ -4,11 +4,123 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Фирма</title>
     <link rel="stylesheet" href="/src/css/index.css" />
   </head>
   <body>
-    <div id="app">
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Услуги</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Атмосфера</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <a class="logo" href="/">
+            <img class="logo__img" src="src/images/logo.svg" alt="Логотип" />
+          </a>
+          <div class="menu__contacts">
+            <a class="phone" href="tel:79783257777">+7(978)325-77-77</a>
+            <button class="btn">записаться</button>
+          </div>
+        </nav>
+        <div class="header-mobile">
+          <div class="header-mobile-left"></div>
+          <a class="logo-tablet" href="/">
+            <img class="logo__img" src="src/images/logo.svg" alt="Логотип" />
+          </a>
+          <a class="logo-mobile" href="/">
+            <img
+              class="logo__img"
+              src="src/images/logo-mobile.svg"
+              alt="Логотип"
+            />
+          </a>
+          <button class="menu__btn-mobile">
+            <span class="menu-btn-line"></span>
+            <span class="menu-btn-line"></span>
+            <span class="menu-btn-line"></span>
+            <span class="menu-btn-line"></span>
+          </button>
+          <div class="menu-mobile">
+            <div class="menu__info-mobile">
+              <nav class="nav-mobile">
+                <ul class="nav__menu">
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Услуги</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Атмосфера</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="menu__contacts-mobile">
+                <div class="telephone-mobile">
+                  <a class="phone__img" href="#">
+                    <img src="src/images/call.svg" alt="Телефон" />
+                  </a>
+                  <a class="phone-mobile" href="tel:79783257777"
+                    >+7(978)325-77-77</a
+                  >
+                </div>
+                <div class="menu__link-mobile">
+                  <a class="menu__item-mobile" href="#">
+                    <img src="src/images/instagram.svg" alt="Instagram" />
+                  </a>
+                  <a class="menu__item-mobile" href="#">
+                    <img src="src/images/vkontakte.svg" alt="Vkontakte" />
+                  </a>
+                  <a class="menu__item-mobile" href="#">
+                    <img src="src/images/telegram.svg" alt="Telegram" />
+                  </a>
+                </div>
+                <button class="btn-mobile">записаться</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__text">
+              <h1 class="hero__title">
+                Это <span>больше</span>, чем барбершоп
+              </h1>
+              <h3 class="hero__subtitle">Тут стригут, слушают, советуют.</h3>
+            </div>
+            <div class="hero__text-mobile">
+              <h1 class="hero__title">
+                Это <span>больше</span>,<br />
+                чем барбершоп
+              </h1>
+              <h3 class="hero__subtitle">
+                Тут стригут,<br />
+                слушают,<br />
+                советуют.
+              </h3>
+            </div>
+            <button class="hero__btn">Выбрать мастера</button>
+          </div>
+        </div>
+      </section>
+      <section class="info">
+        <div class="container"></div>
+      </section>
+    </main>
+
+    <!-- <div id="app">
       <section class="hero">
         <h1>Hello world!</h1>
         <div style="width: 1000px; height: 1000px">
@@ -30,7 +142,7 @@
           </div>
         </div>
       </section>
-    </div>
+    </div> -->
     <script type="module" src="/src/js/index.js"></script>
   </body>
 </html>
