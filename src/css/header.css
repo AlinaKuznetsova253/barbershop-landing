@@ -85,6 +85,12 @@
   }
 }
 
+@media (max-width: 950px) {
+  .menu__contacts {
+    gap: 20px;
+  }
+}
+
 @media (max-width: 900px) {
   .menu {
     gap: 20px;
@@ -99,7 +105,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
   .header {
     padding-top: 20px;
   }
@@ -236,13 +242,8 @@
     padding: 10px 30px;
     transition: color 0.1s ease;
   }
-  .btn-mobile:hover {
-    border: 1px solid var(--accent-secondary-color);
-    background: var(--accent-secondary-color);
-  }
-
   .btn-mobile:active {
-    border: 1px solid var(--accent-color);
+    border: 1px solid var(--text-color);
     background: transparent;
   }
 }

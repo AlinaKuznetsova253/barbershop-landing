@@ -3,6 +3,7 @@
 @import "./header.css";
 @import "./hero.css";
 @import "./info.css";
+@import "./services.css";
 
 body {
   font-size: 16px;
@@ -70,8 +71,8 @@ h6 {
 }
 
 .container {
-  max-width: 1820px;
+  max-width: 1920px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 50px;
 }

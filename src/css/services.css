@@ -1,0 +1,254 @@
+.services {
+  margin-top: 150px;
+}
+
+.services__title {
+  font-family: var(--secondary-font);
+  font-size: 96px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.services__title span {
+  font-family: var(--accent-font);
+  font-weight: 400;
+}
+
+.services__info {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.services__photo {
+  position: relative;
+  padding-right: 70px;
+}
+
+.services__img-1 {
+  top: 0;
+  left: 0;
+  max-width: 622px;
+  max-height: 515px;
+}
+
+.services__img-2 {
+  top: 40px;
+  left: 100px;
+  max-width: 590px;
+  max-height: 435px;
+  position: absolute;
+}
+
+.services__price {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  margin: 0 50px;
+}
+
+.services__item {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 400;
+}
+
+.services__text {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.service__name {
+  font-size: 32px;
+  white-space: nowrap;
+}
+
+.service__dots {
+  flex-grow: 1;
+  border-bottom: 3px dotted var(--text-color);
+  margin: 0 5px;
+  height: 1px;
+  transform: translateY(-7px);
+}
+
+.service__price {
+  font-size: 36px;
+  white-space: nowrap;
+  font-weight: bold;
+  font-family: var(--secondary-font);
+}
+
+.service__btn {
+  font-family: var(--secondary-font);
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  color: var(--text-color);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  transition: color 0.1s ease;
+}
+
+.service__btn:hover {
+  border: 1px solid var(--accent-secondary-color);
+  background: var(--accent-secondary-color);
+}
+
+.service__btn:active {
+  border: 1px solid var(--accent-color);
+  background: transparent;
+}
+
+@media (max-width: 1600px) {
+  .services__img-1 {
+    max-width: 602px;
+    max-height: 495px;
+  }
+  .services__img-2 {
+    max-width: 570px;
+    max-height: 415px;
+  }
+  .services__price {
+    margin-left: 20px;
+  }
+  .service__name {
+    font-size: 30px;
+  }
+  .service__price {
+    font-size: 32px;
+  }
+  .service__btn {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .services__img-1 {
+    max-width: 542px;
+    max-height: 435px;
+  }
+  .services__img-2 {
+    max-width: 510px;
+    max-height: 355px;
+  }
+  .service__name {
+    font-size: 26px;
+  }
+  .service__price {
+    font-size: 32px;
+  }
+  .service__btn {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .services__photo {
+    padding-right: 50px;
+  }
+  .services__img-1 {
+    max-width: 502px;
+    max-height: 395px;
+  }
+  .services__img-2 {
+    max-width: 470px;
+    max-height: 315px;
+  }
+  .services__text {
+    padding-right: 20px;
+  }
+  .services__price {
+    gap: 20px;
+  }
+  .service__name {
+    font-size: 24px;
+  }
+  .service__btn {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .services__title {
+    font-size: 64px;
+  }
+  .services__img-1 {
+    max-width: 452px;
+    max-height: 345px;
+  }
+  .services__img-2 {
+    max-width: 420px;
+    max-height: 265px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .services {
+    margin-top: 100px;
+  }
+  .services__title {
+    font-size: 48px;
+  }
+  .services__info {
+    margin-top: 0;
+  }
+  .services__photo {
+    display: none;
+  }
+  .services__price {
+    margin: 30px 50px 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    margin-top: 50px;
+  }
+  .services__title {
+    font-size: 32px;
+  }
+  .service__name {
+    font-size: 22px;
+  }
+  .service__dots {
+    border-bottom: 2px dotted var(--text-color);
+  }
+  .service__price {
+    font-size: 24px;
+  }
+  .service__btn {
+    font-size: 22px;
+  }
+  .services__price {
+    margin: 30px 20px 0 20px;
+  }
+  .services__item {
+    flex-direction: column;
+  }
+  .services__text {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service__name {
+    font-size: 16px;
+  }
+  .service__dots {
+    border-bottom: 1px dotted var(--text-color);
+    transform: translateY(-4px);
+  }
+  .service__price {
+    font-size: 20px;
+  }
+  .service__btn {
+    font-size: 16px;
+  }
+}

@@ -95,6 +95,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 52px;
+  }
+}
+
 @media (max-width: 650px) {
   .hero__title {
     font-size: 48px;
