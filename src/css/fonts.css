@@ -20,11 +20,9 @@
 
 @font-face {
   font-family: "Druzhok";
-  src:
-    local("Druzhok"),
-    local("Druzhok"),
-    url("../fonts/Druzhok.otf") format("otf");
-  font-weight: bold;
+  src: url("../fonts/DRUZHOK.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {

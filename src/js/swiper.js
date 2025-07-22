@@ -9,11 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
       el: ".swiper-pagination",
     },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-button-left",
+      prevEl: ".swiper-button-right",
     },
     modules: [Navigation, Pagination],
   });
-
-  console.log("hello");
 });

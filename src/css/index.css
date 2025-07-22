@@ -4,6 +4,7 @@
 @import "./hero.css";
 @import "./info.css";
 @import "./services.css";
+@import "./community.css";
 
 body {
   font-size: 16px;
@@ -75,4 +76,10 @@ h6 {
   width: 100%;
   margin: 0 auto;
   padding: 0 50px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
 }
