@@ -9,9 +9,20 @@ document.addEventListener("DOMContentLoaded", () => {
       el: ".swiper-pagination",
     },
     navigation: {
-      nextEl: ".swiper-button-left",
-      prevEl: ".swiper-button-right",
+      nextEl: ".swiper-button-right",
+      prevEl: ".swiper-button-left",
     },
     modules: [Navigation, Pagination],
+  });
+
+  const swiperReviews = new Swiper(".swiper-reviews", {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 200,
+    navigation: {
+      nextEl: ".swiper-button-right-reviews",
+      prevEl: ".swiper-button-left-reviews",
+    },
+    modules: [Navigation],
   });
 });
