@@ -6,6 +6,7 @@
 @import "./services.css";
 @import "./community.css";
 @import "./reviews.css";
+@import "./contacts.css";
 
 body {
   font-size: 16px;

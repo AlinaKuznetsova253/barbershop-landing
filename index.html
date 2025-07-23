@@ -229,7 +229,7 @@
             <div class="swiper-wrapper">
               <div class="community__item-mobile swiper-slide">
                 <img
-                  class="community__img-mobile-1"
+                  class="community__img-mobile"
                   src="src/images/community1-1x-mobile.jpg"
                   srcset="/src/images/community1-2x-mobile.jpg 2x"
                   alt="Фото"
@@ -237,33 +237,25 @@
               </div>
               <div class="community__item-mobile swiper-slide">
                 <img
-                  class="community__img-mobile-1"
-                  src="src/images/community1-1x-mobile.jpg"
-                  srcset="/src/images/community1-2x-mobile.jpg 2x"
+                  class="community__img-mobile"
+                  src="src/images/community2-1x-mobile.jpg"
+                  srcset="/src/images/community2-2x-mobile.jpg 2x"
                   alt="Фото"
                 />
               </div>
               <div class="community__item-mobile swiper-slide">
                 <img
-                  class="community__img-mobile-1"
-                  src="src/images/community1-1x-mobile.jpg"
-                  srcset="/src/images/community1-2x-mobile.jpg 2x"
+                  class="community__img-mobile"
+                  src="src/images/community3-1x-mobile.jpg"
+                  srcset="/src/images/community3-2x-mobile.jpg 2x"
                   alt="Фото"
                 />
               </div>
               <div class="community__item-mobile swiper-slide">
                 <img
-                  class="community__img-mobile-1"
-                  src="src/images/community1-1x-mobile.jpg"
-                  srcset="/src/images/community1-2x-mobile.jpg 2x"
-                  alt="Фото"
-                />
-              </div>
-              <div class="community__item-mobile swiper-slide">
-                <img
-                  class="community__img-mobile-1"
-                  src="src/images/community1-1x-mobile.jpg"
-                  srcset="/src/images/community1-2x-mobile.jpg 2x"
+                  class="community__img-mobile"
+                  src="src/images/community4-1x-mobile.jpg"
+                  srcset="/src/images/community4-2x-mobile.jpg 2x"
                   alt="Фото"
                 />
               </div>
@@ -320,8 +312,68 @@
           </div>
         </div>
       </section>
+      <section class="contacts">
+        <div class="container">
+          <h2 class="contacts__title"><span>к</span>онтакты</h2>
+          <div class="contacts__info">
+            <div id="map" class="map"></div>
+            <div class="contacts__item">
+              <div class="contacts__address">
+                <p>Республика Крым, г. Симферополь,</p>
+                <p>ул. Екатерининская 67Б</p>
+              </div>
+              <div class="contacts__text">
+                <p>Режим работы:</p>
+                <p>без выходных</p>
+                <p>9:00 - 22:00</p>
+              </div>
+              <div class="contacts__telephone">
+                <a class="contacts__img" href="#">
+                  <img src="src/images/contacts-call.svg" alt="Телефон" />
+                </a>
+                <a class="contacts__img-mobile" href="#">
+                  <img
+                    src="src/images/contacts-call-mobile.svg"
+                    alt="Телефон"
+                  />
+                </a>
+                <a class="contacts__phone" href="tel:79781563562"
+                  >+7(978)156-35-62</a
+                >
+              </div>
+              <div class="contacts__link">
+                <a class="contacts__link-info" href="#">
+                  <img
+                    class="contacts__link-img"
+                    src="src/images/instagram.svg"
+                    alt="Instagram"
+                  />
+                  <p class="contacts__link-text">Instagram*</p>
+                </a>
+                <a class="contacts__link-info" href="#">
+                  <img
+                    class="contacts__link-img"
+                    src="src/images/vkontakte.svg"
+                    alt="Vkontakte"
+                  />
+                  <p class="contacts__link-text">ВКонтакте</p>
+                </a>
+                <a class="contacts__link-info" href="#">
+                  <img
+                    class="contacts__link-img"
+                    src="src/images/telegram.svg"
+                    alt="Telegram"
+                  />
+                  <p class="contacts__link-text">Telegram</p>
+                </a>
+              </div>
+              <button class="contacts__btn">Выбрать мастера</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=880f1ccf-f5cd-413b-ab0b-ae09f8345d3e&lang=ru_RU"></script>
     <script type="module" src="/src/js/index.js"></script>
   </body>
 </html>

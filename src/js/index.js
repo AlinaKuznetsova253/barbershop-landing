@@ -32,4 +32,25 @@ document.addEventListener("DOMContentLoaded", () => {
   menuBtn.addEventListener("click", toggleMobileMenu);
 
   menuLinks.forEach((link) => link.addEventListener("click", toggleMobileMenu));
+
+  ymaps.ready(init);
+
+  function init() {
+    const map = new ymaps.Map("map", {
+      center: [44.956701, 34.089029],
+      zoom: 14,
+      controls: ["zoomControl", "fullscreenControl"],
+    });
+    const placemark = new ymaps.Placemark(
+      [44.956701, 34.089029],
+      {
+        balloonContent: "ул. Екатерининская 67Б, Симферополь",
+      },
+      {
+        preset: "islands#redDotIcon",
+      },
+    );
+
+    map.geoObjects.add(placemark);
+  }
 });
