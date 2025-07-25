@@ -28,7 +28,7 @@
   align-items: center;
   gap: 80px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
   font-family: var(--secondary-font);
   justify-content: flex-end;
 }
@@ -46,7 +46,7 @@
   border-radius: 20px;
   cursor: pointer;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   padding: 15px 40px;
   transition: color 0.1s ease;
@@ -237,7 +237,7 @@
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     padding: 10px 30px;
     transition: color 0.1s ease;

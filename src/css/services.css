@@ -5,7 +5,7 @@
 .services__title {
   font-family: var(--secondary-font);
   font-size: 96px;
-  font-weight: 700;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   text-transform: uppercase;
@@ -79,6 +79,7 @@
 
 .service__price {
   font-size: 36px;
+  font-weight: 400;
   white-space: nowrap;
   font-weight: bold;
   font-family: var(--secondary-font);
@@ -92,7 +93,7 @@
   border-radius: 20px;
   cursor: pointer;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   padding: 10px 40px;
   transition: color 0.1s ease;

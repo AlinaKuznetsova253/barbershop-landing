@@ -5,7 +5,7 @@
 .community__title {
   font-family: var(--secondary-font);
   font-size: 96px;
-  font-weight: 700;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   text-transform: uppercase;
@@ -39,7 +39,7 @@
   font-family: var(--secondary-font);
   color: var(--accent-color);
   font-size: 64px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
