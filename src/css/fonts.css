@@ -1,21 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @font-face {
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue Cyrillic";
   src:
-    local("Bebas Neue Bold"),
-    local("Bebas Neue-Bold"),
-    url("../fonts/BebasNeue-Bold.otf") format("otf");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "Bebas Neue";
-  src:
-    local("Bebas Neue Regular"),
-    local("Bebas Neue-Regular"),
-    url("../fonts/BebasNeue-Regular.otf") format("otf");
-  font-weight: regular;
+    url("../fonts/BebasNeueCyrillic.woff2") format("woff2"),
+    url("../fonts/BebasNeueCyrillic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -26,6 +18,6 @@
 }
 
 :root {
-  --secondary-font: "Bebas Neue", sans-serif;
+  --secondary-font: "Bebas Neue Cyrillic", sans-serif;
   --accent-font: "Druzhok", sans-serif;
 }
