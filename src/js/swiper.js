@@ -15,6 +15,27 @@ document.addEventListener("DOMContentLoaded", () => {
     modules: [Navigation, Pagination],
   });
 
+  const swiperInfo = new Swiper(".swiper-info", {
+    loop: true,
+    slidesPerView: 4,
+    spaceBetween: 0,
+    navigation: {
+      nextEl: ".swiper-button-right-info",
+    },
+    modules: [Navigation],
+    breakpoints: {
+      1500: {
+        slidesPerView: 4,
+      },
+      900: {
+        slidesPerView: 3,
+      },
+      769: {
+        slidesPerView: 2,
+      },
+    },
+  });
+
   const swiperReviews = new Swiper(".swiper-reviews", {
     loop: true,
     slidesPerView: 1,
